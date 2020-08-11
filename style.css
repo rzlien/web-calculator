@@ -1,0 +1,82 @@
+
+/* This contains the grid area for the calculator */
+.key-container {
+    border: 1px solid red;
+    display: grid;
+    grid-template-areas: 
+        "plus minus time divide"
+        "seven eight nine equals"
+        "four five six equals"
+        "one two three equals"
+        "zerokey period AC equals"
+}
+
+/* START: defining the grid */
+.plus {
+    grid-area: plus;
+}
+
+.minus {
+    grid-area: minus;
+}
+
+.times {
+    grid-area: time;
+}
+
+.divide {
+    grid-area: divide;
+}
+
+.seven {
+    grid-area: seven;
+}
+
+.eight {
+    grid-area: eight;
+}
+
+.nine {
+    grid-area: nine;
+}
+
+.four {
+    grid-area: four;
+}
+
+.five {
+    grid-area: five;
+}
+
+.six {
+    grid-area: six;
+}
+
+.one {
+    grid-area: one;
+}
+
+.two {
+    grid-area: two;
+}
+
+.three {
+    grid-area: three;
+}
+
+.zerokey{
+    grid-area: zerokey;
+}
+
+.period {
+    grid-area: period;
+}
+
+.AC {
+    grid-area: AC;
+}
+
+.equals {
+    grid-area: equals;
+}
+/* END: defining the grid */

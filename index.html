@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta hhtp-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h1>My Calculator App</h1>
+    <p>This calculator should function exactly how you would expect. mouse or keyboard</p>
+
+    <div class="calc-container">
+        <!-- data-action attribute have no defined meaning in HTML. Is used to separate HTML, CSS and JS -->
+        <!-- prevents accidental conflicts when someone changes the ame of a class not realizing it's used in the JS code
+        (since classes were originally meant for CSS). -->
+        <div class="calc-display">0</div>
+        <div class="key-container">
+            <button class="plus key-operator" data-action="add">+</button>
+            <button class="minus key-operator" data-action="subtract">-</button>
+            <button class="time key-operator" data-action="multiply">&times;</button>
+            <button class="divide key-operator" data-action="division">&divide;</button>
+            <button class="seven">7</button>
+            <button class="eight">8</button>
+            <button class="nine">9</button>
+            <button class="four">4</button>
+            <button class="five">5</button>
+            <button class="six">6</button>
+            <button class="one">1</button>
+            <button class="two">2</button>
+            <button class="three">3</button>
+            <button class="zerokey">0</button>
+            <button class="period" data-action="decimal">.</button>
+            <button class="AC" data-action="clear">AC</button>
+            <button class="equals key-equal" data-action="calculate">=</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
